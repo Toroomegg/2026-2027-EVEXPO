@@ -133,7 +133,7 @@ export const SlideDeck: React.FC<SlideDeckProps> = ({ data }) => {
         <div className="h-full flex flex-col">
           <div className="mb-6 border-l-4 border-amber-500 pl-6">
             <h2 className="text-3xl font-bold text-white">現況分析：主戰場分佈</h2>
-            <p className="text-slate-400 mt-2">競爭對手密集度 (>8家) 與 成本效益矩陣</p>
+            <p className="text-slate-400 mt-2">競爭對手密集度 (&gt;8家) 與 成本效益矩陣</p>
           </div>
           <div className="flex-1">
             <CostChart data={data} />
